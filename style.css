@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    background-image: url(/image/backkground.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fbffe2;
+}
+
+#heading{
+    font-size: 50px;
+    color: #fffdf7;
+}
+
+#city{
+    font-size: 30px;
+    font-family: 'Young Serif', serif;
+}
+
+#error{
+    display: none;
+    width: fit-content;
+    height: fit-content;
+}
+#image{
+    width: 190px;
+    margin-top: -50px;
+}
+
+#detail{
+    width: 100%;
+    padding: 20px;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Croissant One', cursive;
+}
+#textbox{
+    font-size: large;
+    border:3px solid #386055;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#button{
+    width: 5vh;
+    height: 4vh;
+    color: blue;
+    border: 3px solid #386055;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#temperature{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.button-box{
+    position: relative;
+    display: inline-block;
+    width:100px;
+    height: 2rem;
+    background-color: aquamarine;
+    border-radius: 30px;
+}
+
+.toggle{
+    padding: 15px;
+    margin-top: -5px;
+    height: 10px;
+    font-size: 12px;
+    background: transparent;
+    position: relative;
+    text-align: center;
+    border: 0; 
+    outline: none;
+}
+
+
+
+#description{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.size{
+    font-size: 15px;
+}
+
+#weather{
+    display:none;
+    border: 2px solid #3230d3;
+    background-color: #948ae0c7;
+    border-radius: 30px;
+    width:20rem ; 
+    justify-content: center;
+    margin-left: 80vh;
+    margin-top: 10px;
+}
